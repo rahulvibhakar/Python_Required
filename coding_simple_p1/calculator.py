@@ -1,0 +1,10 @@
+a=int(input("Enter a value: "))
+print(a)
+b=int(input("Enter b value: "))
+print(b)
+
+print("Sum is ",a+b)
+print("Difference is ",a-b)
+print("Multiplication is ",a*b)
+print("Division is ",a/b)
+print("Greater is: ",a>b)

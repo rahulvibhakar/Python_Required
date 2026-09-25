@@ -1,0 +1,164 @@
+# 1. What is Python?
+# Answer: Python is a high-level, interpreted, object-oriented programming language known for its simple syntax and readability.
+
+
+# 2. Why is Python popular?
+# Answer:
+# Easy to learn
+# Large community support
+# Cross-platform
+# Extensive libraries
+# Used in Web Development, Automation, Data Science, AI, and DevOps
+
+# 3. What are Python's basic data types?
+# int
+# float
+# str
+# bool
+# Example:
+# age = 23
+# salary = 25000.50
+# name = "Rahul"
+# is_employee = True
+
+# 4. What is Dynamic Typing?
+# Answer: Python determines the variable type at runtime.
+# x = 10
+# x = "Rahul"
+# The same variable can hold different data types.
+
+# 5. How do you check the type of a variable?
+# age = 23
+# print(type(age))
+# Output:
+# <class 'int'>
+
+# 6. Difference between = and ==?
+# Assignment Operator
+# a = 10
+# Comparison Operator
+# a == 10
+
+# 7. Difference between / and //?
+# print(10/3)
+# Output:
+# 3.3333
+# print(10//3)
+# Output:
+# 3
+# // performs floor division.
+
+# 8. What is the modulus operator?
+# 10 % 3
+# Output:
+# 1
+# Returns the remainder.
+
+# 9. What is a String?
+# Answer: A sequence of characters enclosed within quotes.
+# name = "Rahul"
+
+# 10. What is String Immutability?
+# Answer: Strings cannot be modified after creation.
+# Wrong:
+# name = "Rahul"
+# name[0] = "P"
+# Produces an error.
+
+# 11. How do you reverse a string?
+# name = "Rahul"
+# print(name[::-1])
+# Output:
+# luhaR
+
+# 12. How do you find the length of a string?
+# name = "Rahul"
+# print(len(name))
+# Output:
+# 5
+
+# 13. What is an if statement?
+# Used for decision making.
+# age = 20
+# if age >= 18:
+# print("Adult")
+
+# 14. Difference between if, elif, and else?
+# marks = 85  
+# if marks >= 90:
+# print("A")
+# elif marks >= 75:
+# print("B")
+# else:
+# print("C")
+
+# 15. What is a Loop?
+# Used to execute code repeatedly.
+# For Loop
+# for i in range(5):
+# print(i)
+# While Loop
+# i = 1 
+# while i <= 5:
+# print(i)
+# i += 1
+
+# 16. Difference Between For and While Loop?
+# For Loop
+# Known number of iterations
+
+# While Loop
+# Unknown number of iterations
+# Runs until condition becomes False
+
+# 17. What is break?
+# Stops loop execution immediately.
+# for i in range(10):
+# if i == 5:
+# break
+# print(i)
+
+# 18. What is continue?
+# Skips current iteration.
+# for i in range(5):
+# if i == 2:
+# continue
+# print(i)
+
+# 19. What is a Function?
+# A reusable block of code.
+# def greet():
+# print("Hello")
+
+# 20. Difference between print and return?
+# Print
+# def add(a,b):
+# print(a+b)
+# Displays result only.
+
+# Return
+# def add(a,b):
+# return a+b
+# Returns value for further use.
+
+# Coding Questions
+# Check Palindrome
+# text = "madam"
+# if text == text[::-1\]:
+# print("Palindrome")
+
+# Factorial
+# n = 5
+# fact = 1
+# for i in range(1,n+1):
+# fact *= i
+# print(fact)
+
+# Prime Number
+# num = 13
+# count = 0
+# for i in range(1,num+1):
+# if num % i == 0:
+# count += 1
+# if count == 2:
+# print("Prime")
